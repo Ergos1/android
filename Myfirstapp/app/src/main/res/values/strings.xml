@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My first app</string>
+    <string name="star">\u2605</string>
+    <string name="remove">\u2605</string>
+    <string name="mul">\u00D7</string>
+    <string name="div">\u00F7</string>
+    <string name="erase">\u232B</string>
+    <string name="plus">\u002B</string>
+    <string name="minus">\u2212</string>
+    <string name="more_vert">\u2807</string>
+</resources>

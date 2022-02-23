@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:elevation="10dp"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_weight="1"
+                    android:text="RAD"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="@string/more_vert"
+                    android:textSize="20dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:layout_weight="1"
+                    android:paddingRight="20dp"
+                    android:text="16x(0,5)"
+                    android:textSize="80dp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:layout_weight="1"
+                    android:paddingRight="20dp"
+                    android:text="8"
+                    android:textSize="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="#7f848b"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:paddingRight="1dp"
+                android:background="#e5e7e8"
+                >
+
+                <LinearLayout
+                    android:background="#f2f3f5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            style="@style/button_number_text"
+                            android:text="7"
+                            >
+                        </TextView>
+                        <TextView
+                            style="@style/button_number_text"
+                            android:text="8"
+                            >
+                        </TextView>
+                        <TextView
+                            style="@style/button_number_text"
+                            android:text="9"
+                            >
+                        </TextView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            style="@style/button_number_text"
+                            android:text="4"
+                            >
+                        </TextView>
+                        <TextView
+                            style="@style/button_number_text"
+                            android:text="5"
+                            >
+                        </TextView>
+                        <TextView
+                            style="@style/button_number_text"
+                            android:text="6"
+                            >
+                        </TextView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            style="@style/button_number_text"
+                            android:text="1"
+                            >
+                        </TextView>
+                        <TextView
+                            style="@style/button_number_text"
+                            android:text="2"
+                            >
+                        </TextView>
+                        <TextView
+                            style="@style/button_number_text"
+                            android:text="3"
+                            >
+                        </TextView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            style="@style/button_number_text"
+                            android:text="0"
+                            >
+                        </TextView>
+                        <TextView
+                            style="@style/button_number_text"
+                            android:text=","
+                            >
+                        </TextView>
+                        <TextView
+                            style="@style/button_number_text"
+                            android:text="="
+                            >
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#f2f3f5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                >
+                <TextView
+                    style="@style/button_operations_text"
+                    android:text="@string/erase"></TextView>
+
+                <TextView
+                    style="@style/button_operations_text"
+                    android:text="@string/mul"></TextView>
+
+                <TextView
+                    style="@style/button_operations_text"
+                    android:text="@string/div"></TextView>
+
+                <TextView
+                    style="@style/button_operations_text"
+                    android:text="@string/minus"></TextView>
+
+                <TextView
+                    style="@style/button_operations_text"
+                    android:text="@string/plus"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.5"
+                android:background="#1a73e9">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="<"
+                    android:textColor="#ffffff"></TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+<!--    <TableLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:padding="5dp"-->
+<!--            >-->
+
+<!--            <TextView-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="start"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="RAD"-->
+<!--                android:textSize="20dp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="end"-->
+<!--                android:text="@string/more_vert"-->
+<!--                android:textSize="20dp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="10dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="end"-->
+<!--                android:paddingRight="10dp"-->
+<!--                android:text="16x(0,5)"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="80dp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="40dp"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:padding="10dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="end"-->
+<!--                android:paddingRight="25dp"-->
+<!--                android:text="8"-->
+<!--                android:textSize="40dp" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow android:layout_height="match_parent">-->
+
+<!--            <TableLayout-->
+<!--                android:layout_weight="3"-->
+<!--                android:background="#f2f2f5">-->
+
+<!--                <TableRow>-->
+
+<!--                    <TextView-->
+<!--                        style="@style/button_number_text"-->
+<!--                        android:text="7"></TextView>-->
+
+<!--                    <TextView-->
+<!--                        style="@style/button_number_text"-->
+<!--                        android:text="8">-->
+
+<!--                    </TextView>-->
+
+<!--                    <TextView-->
+<!--                        style="@style/button_number_text"-->
+<!--                        android:text="9">-->
+
+<!--                    </TextView>-->
+<!--                </TableRow>-->
+
+<!--                <TableRow>-->
+
+<!--                    <TextView-->
+<!--                        style="@style/button_number_text"-->
+<!--                        android:text="4"></TextView>-->
+
+<!--                    <TextView-->
+<!--                        style="@style/button_number_text"-->
+<!--                        android:text="5">-->
+
+<!--                    </TextView>-->
+
+<!--                    <TextView-->
+<!--                        style="@style/button_number_text"-->
+<!--                        android:text="6">-->
+
+<!--                    </TextView>-->
+<!--                </TableRow>-->
+
+<!--                <TableRow>-->
+
+<!--                    <TextView-->
+<!--                        style="@style/button_number_text"-->
+<!--                        android:text="1"></TextView>-->
+
+<!--                    <TextView-->
+<!--                        style="@style/button_number_text"-->
+<!--                        android:text="2">-->
+
+<!--                    </TextView>-->
+
+<!--                    <TextView-->
+<!--                        style="@style/button_number_text"-->
+<!--                        android:text="3">-->
+
+<!--                    </TextView>-->
+<!--                </TableRow>-->
+
+<!--                <TableRow>-->
+
+<!--                    <TextView-->
+<!--                        style="@style/button_number_text"-->
+<!--                        android:text="0"></TextView>-->
+
+<!--                    <TextView-->
+<!--                        style="@style/button_number_text"-->
+<!--                        android:text=",">-->
+
+<!--                    </TextView>-->
+
+<!--                    <TextView-->
+<!--                        style="@style/button_number_text"-->
+<!--                        android:text="="></TextView>-->
+<!--                </TableRow>-->
+<!--            </TableLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_weight="2"-->
+<!--                android:gravity="center"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    style="@style/button_operations_text"-->
+<!--                    android:text="@string/erase"></TextView>-->
+
+<!--                <TextView-->
+<!--                    style="@style/button_operations_text"-->
+<!--                    android:text="@string/mul"></TextView>-->
+
+<!--                <TextView-->
+<!--                    style="@style/button_operations_text"-->
+<!--                    android:text="@string/div"></TextView>-->
+
+<!--                <TextView-->
+<!--                    style="@style/button_operations_text"-->
+<!--                    android:text="@string/minus"></TextView>-->
+
+<!--                <TextView-->
+<!--                    style="@style/button_operations_text"-->
+<!--                    android:text="@string/plus"></TextView>-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="#1a73e9"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="<"-->
+<!--                    android:textColor="#ffffff"></TextView>-->
+<!--            </LinearLayout>-->
+<!--        </TableRow>-->
+<!--    </TableLayout>-->
+
+
+</FrameLayout>

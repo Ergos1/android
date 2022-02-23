@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button_number_text">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">35dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingHorizontal">10dp</item>
+        <item name="android:paddingVertical">35dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="button_operations_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">#296cdd</item>
+<!--        <item name="android:paddingVertical">70px</item>-->
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
